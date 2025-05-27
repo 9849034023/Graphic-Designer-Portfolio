@@ -1,0 +1,225 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(pexels-kseniachernaya-3965543.jpg);
+    background-size: cover;
+}
+nav {
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #FFCC00, #FF0066);
+    align-items: center;
+    height: 80px;
+    font-size: large;
+    font-weight: lighter;
+    font-style: normal;
+    padding: 0 20px;
+    position: sticky;
+    z-index: 1000;
+}
+.profile-box {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.profile-box a {
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.profile-box i {
+    font-size: 24px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #FFCC00, #FF0066);
+    border-radius: 80%;
+}
+.kera {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.kera p {
+    text-decoration: none;
+    color: #000;
+    font-size: x-large;
+    font-weight: bold;
+    user-select: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menu {
+    margin-left: 55%;
+    position: absolute;
+}
+.menu a {
+    text-decoration: none;
+    color: #111;
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+}
+.profile-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: content-box;
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color:gray;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+button[type="button"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(135deg, #FFCC00, #FF0066);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    margin-left: 29%;
+    margin-bottom: 4%;
+}
+
+button[type="button"]:hover {
+    background: linear-gradient(135deg, #FFCC00, #8e1717);
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.925);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    margin-left: 27%;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(68, 63, 6, 0.7);
+}
+.footer-container {
+    background-color: #030000;
+    color: rgb(248, 248, 248);
+    padding: 20px;
+    text-align: center;
+    position: inherit;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    font-style: sans-serif;
+    font-size: larger;
+}
+
+.footer-content {
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+#brand {
+    font-size: 300px;
+    background-color: #080000;
+    user-select: none;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+#slogon {
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 50px;
+    user-select: none;
+}
+
+#K-ERA {
+    color: azure;
+    text-align: left;
+}
+#logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4c4c; /* Bright red background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    display: block; /* Makes it a block element for alignment */
+    width: fit-content; /* Adjust size based on text */
+    text-align: center; /* Center-align the text */
+}
+
+#logout-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+#logout-button:active {
+    background-color: #cc0000; /* Even darker red when clicked */
+}
+

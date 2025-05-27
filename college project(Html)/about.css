@@ -1,0 +1,45 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 160px 0;
+    height: 10vh;
+}
+.breadcrumb {
+    font-size: 16px;
+    color: white;
+}
+.about-us h1{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+    font-weight: bold;
+}
+body {
+    background: linear-gradient(to right,  #6ac6fb, #59C3FF,#1E90FF);
+    padding-top: 80px;
+
+}
+main {
+    font-family: "Heebo", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    margin: 0 5%;
+
+
+}

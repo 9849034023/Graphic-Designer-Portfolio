@@ -1,0 +1,255 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-maumascaro-376533.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+nav {
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ADD8E6, #00008B);
+    align-items: center;
+    height: 80px;
+    font-size: large;
+    font-weight: lighter;
+    font-style: normal;
+    padding: 0 20px;
+    position: sticky;
+    z-index: 1000;
+}
+.kera {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.kera p {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu {
+    margin-left: 55%;
+    position: absolute;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background-color: #00008B;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 200px;
+    position: fixed;
+}
+
+#search-bar {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ece5e3;
+    border-radius: 20px;
+    background-color: #ede3e3;
+    width: 500px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    position: fixed;
+}
+
+.search-container button {
+    padding: 10px 10px;
+    margin-left: 5px;
+    background-color: #ece5e3;
+    border: 1px solid #ece5e3;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.search-container button:hover {
+    background-color: #c3b5b5;
+}
+
+.search-container button i {
+    color: #b5aeae;
+    font-size: 16px;
+}
+.menscontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(219, 203, 25, 0.1);
+}
+
+.menscontent li {
+    list-style: none;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menscontent li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 75px 75px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.menscontent li:hover a {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h1{
+    text-align: center;
+    background: linear-gradient(135deg, #ADD8E6, #00008B);
+    color: white;
+}
+
+.menscontent li:nth-child(1) {
+    background-image: url('pexelhat.jpg'); 
+}
+
+.menscontent li:nth-child(2) {
+    background-image: url('pexelshirt.jpg');
+}
+
+.menscontent li:nth-child(3) {
+    background-image: url('menspant.jpg');
+}
+
+.menscontent li:nth-child(4) {
+    background-image: url('pexelshoes.jpg');
+}
+
+
+.footer-container {
+    background-color: #030000;
+    color: rgb(248, 248, 248);
+    padding: 20px;
+    text-align: center;
+    position: inherit;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    font-style: sans-serif;
+    font-size: larger;
+}
+
+.footer-content {
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+#K-ERA {
+    color: azure;
+    text-align: left;
+    font-size: x-small;
+    font-style: normal;
+}
+
+.footer-container h4, h5 {
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons .ri-facebook-circle-fill {
+    color: #1877f2;
+}
+
+.social-icons .ri-instagram-line {
+    background: linear-gradient(135deg, #fd5949, #d6249f, #285aeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons .ri-whatsapp-fill {
+    color: #25d366;
+}
+
+.social-icons .ri-youtube-fill {
+    color: #ff0000;
+}
+
+.arrow-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: linear-gradient(135deg, #ADD8E6, #00008B);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.arrow-button:hover {
+    background: linear-gradient(135deg, #ADD8E6, rgba(92, 7, 100, 0.7)); 
+}
+
+.arrow-button i {
+    font-size: 24px;
+}

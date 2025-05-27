@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .background {
+        background-image: url(rugbe.webp);
+        background-position: center;
+        background-attachment: fixed;
+        height: 95vh;
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        position: static;
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+        position: relative;
+        align-items: center;
+        background-color: rgb(244, 173, 32);
+        height: 12vh;
+
+
+
+    }
+   
+    .sologon {
+        width: 80%;
+        height: 20%;
+    }
+    .sologon h2 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        letter-spacing: 7px;
+        font-size: 80px;
+        font-style: normal;
+        position: absolute;
+        right: 10%;
+        bottom: 60%;
+
+    }
+    .text{
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        letter-spacing: 2px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 50;
+        right: -34%;
+        bottom: 10%;
+        position: relative;
+        width: 55%;
+        height: 20vh;
+
+    }
+
+    .headercontent {
+        display: flex;
+        height: 15vh;
+        position: relative;
+        font-size: 25px;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+        font-weight: 800;
+        color: black;
+
+    }
+    .team{
+        height: 10%;
+        width: 10%; 
+        display: flex;
+         
+    }
+    .team img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px; 
+    }
+    .finance{
+       width: 100%;
+       height: 20vh;
+       background-color: rgba(0, 0, 0, 0.701);
+       
+    }
+</style>
+
+
+<div class="background">
+    <div style="width: 10%;opacity: 1.5; background-color: rgba(0, 0, 0, 0.571) ; height: 150vh; position: relative;">
+
+    </div>                    
+    <div style="background-color: rgba(0, 0, 0, 0.571); width: 100%;">
+        <nav class="header">
+
+            <div style="width: 90%;">
+
+
+
+                <div class="headercontent">
+                    <div
+                        style="text-align: end ; background-color: rgb(49, 47, 47);color: white;padding: 22px;height: 7.5vh;; font-size: 40px;">
+                        <h1>Knights</h1>
+                    </div>
+                    <div style="color: white; ">
+
+                        <li>Home</a></li>   
+                    </div>
+                    <div>
+                        <li>About</a></li>
+                    </div>
+                    <div>
+
+                        <li>Games</a></li>
+                    </div>
+                    <div>
+
+                        <li>Blog</a></li>
+                    </div>
+                    <div>
+
+                        <li>Contact</a></li>
+                    </div>
+
+                    <div>
+
+                        <button
+                            style="font-weight: 600; background-color: azure;color: black;border: azure;padding: 22px; border-radius: 5px;font-size: 25px;">Buy
+                            Ticket
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div style="width: 10%;opacity: 1.5; background-color: rgba(240, 248, 255, 0); height: 8vh; position: relative;">
+
+        </div>
+        <br>
+        <div style="width: 80%; height: 40vh;color: aliceblue;z-index: 100;position: absolute;">
+
+        </div>
+        <div class="sologon">
+            <h2> How long can you last?</h2>
+        </div>
+        <div>
+
+            <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, repudiandae libero est molestiae minus earum.
+            </p>
+        </div>
+        <div style="display: flex;flex-direction: row; justify-content: center;align-items: center; height: 10vh;
+        width: 85%;">
+            <button style="border-radius:50% ;background-color: rgba(240, 248, 255, 0.495); 
+            width: 10vh;
+            height: 10vh; 
+            ;;left:  -14%;">Click</button>
+            <p  style=" text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            color: aliceblue;
+            letter-spacing: 2px;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 50;
+           
+          
+           ;" class="text1">
+                Watch Now
+            </p>
+        </div>
+
+    </div>
+
+
+</div>
+<body>
+    <main style="padding: 0 10%;">
+        <div class="finance">
+            <div style="width: 20%;display: flex;justify-content: space-between;">
+                <div class="team">
+                    <img style="position: absolute;z-index: 100;" src="team-1.jpg" alt="">
+                    <img style="position: absolute; left: 250px;" src="team-2.jpg" alt="">
+                </div>
+                <div style="width: 10%;display: flex;">
+                    <h2>knights Warriors</h2>
+                    <h2>Mighty Falcons</h2>
+                </div>
+
+            </div>
+            <div class="input-group">
+                <input type="checkbox" value="" name="hobby">
+                gaming <br>
+                <input type="checkbox" value="" name="hobby">
+                eating <br>
+                <input type="checkbox" value="" name="hobby">
+                walking <br>
+                <input type="checkbox" value="" name="hobby">
+                sleeping
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+    </body>
+</html>

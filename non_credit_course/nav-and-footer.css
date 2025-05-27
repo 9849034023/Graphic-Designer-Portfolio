@@ -1,0 +1,160 @@
+nav {
+    top: 0;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(219, 203, 25, 0.925);
+    align-items: center;
+    height: 80px;
+    font-size: large;
+    font-weight: lighter;
+    font-style: normal;
+    padding: 0 20px;
+    position: sticky;
+    z-index: 1000;
+}
+.profile-box {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.profile-box a {
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: rgba(219, 203, 25, 0.925);
+    cursor: pointer;
+    margin-right: 20px;
+}
+.profile-box i {
+    margin-right: 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.kera {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+.kera p {
+    text-decoration: none;
+    color: #000;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu {
+    margin-left: 55%;
+    position: absolute;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111;
+}
+
+nav ul li a:hover {
+    background-color: #ffff06;
+}
+.footer-container {
+    background-color: #030000;
+    color: rgb(248, 248, 248);
+    padding: 20px;
+    text-align: center;
+    position:inherit;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    font-style: sans-serif;
+    font-size: larger;
+}
+
+.footer-content {
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+#K-ERA {
+    color: azure;
+    text-align: left;
+    font-size: x-small;
+    font-style: normal;
+   
+    
+}
+
+.item h1,
+h2,
+h3 {
+    color: #100f0f;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.item a {
+    text-decoration: underline solid rgb(20, 1, 1);
+}
+.footer-container h4,h5 {
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 300;
+    text-decoration: underline ;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons .ri-facebook-circle-fill {
+    color: #1877f2;
+}
+
+.social-icons .ri-instagram-line {
+    background: linear-gradient(135deg, #fd5949, #d6249f, #285aeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons .ri-whatsapp-fill {
+    color: #25d366;
+}
+
+.social-icons .ri-youtube-fill {
+    color: #ff0000;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            /* border: 1px solid black; */
+        }
+
+       
+
+        .container {
+            width: 100%;
+        }
+
+        header {
+            display: flex;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            color: #000000;
+            background-color: rgb(232, 240, 240);
+
+            position: relative;
+
+        }
+
+        .logo  {
+            font-style: normal;
+            font-family: cursive;
+            padding: 10px;
+            color: burlywood;
+            margin-left: 50px;
+            
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 50px;
+            list-style: none;
+            padding: 30px;
+        }
+
+        nav ul li {
+            display: flex;
+            align-items: center;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            justify-content: center;
+        }
+
+        .visitus {
+            background-color: burlywood;
+            height: 20px;
+            width: 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(10, 7, 43, 0.8);
+            max-width: 100%;
+            height: 100%;
+            
+
+
+        }
+
+        .slogan {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            padding: 0;
+            margin-top: 75px;
+            padding: 0 5%;
+            align-items: left;
+            justify-content: center;
+            
+        }
+        .slogan1{
+            
+            background: url(coat.jpg);
+            background-color: rgba(15, 9, 95, 0.311);
+
+        }
+
+
+
+        .slogan-text {
+
+            font-size: 56px;
+            color: aliceblue;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
+            justify-content: end;
+            text-align: left;
+
+
+        }
+
+        .slogan-description {
+            word-spacing: 5px;
+            font-size: 16px;
+            color: aliceblue;
+            margin-bottom: 20px;
+            text-align: left;
+            padding-right: 20%;
+
+
+        }
+
+        .btn-services {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background: sandybrown;
+            border: none;
+            
+            cursor: pointer;
+            height: 50px;
+            width: 30%;
+        }
+
+        .btn-visitus {
+            height: 78px;
+            width: 100px;
+            color: #fff;
+            background-color: rgb(196, 157, 105);
+            border: none;
+            cursor: pointer;
+
+            font-size: 15px;
+
+        }
+
+        .img-container {
+            
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            height: 750px;
+            width: inherit;
+
+        }
+
+        .img-container img {
+            display: flex;
+            height: 600px;
+            width: 600px;
+            justify-content: end;
+            align-items: end;
+        }
+
+        .features {
+            display: flex;
+            padding: 20px;
+            gap: 50px;
+            justify-content: space-around;
+            background-color: rgba(255, 255, 255, 0.8);
+
+        }
+
+        .features p {
+            text-align: left;
+        }
+
+
+        .features img {
+            border-radius: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .f {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .f img {
+            margin-bottom: 10px;
+        }
+
+        .rex {
+            display: flex;
+            margin-right: 50px;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .number {
+            background-color: burlywood;
+            border-radius: 50%;
+            height: 48px;
+            width: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: #000;
+            margin: auto;
+        }
+
+        .f p {
+            margin-top: 10px;
+            text-align: left;
+        }
+        
+        .about {
+            display: flex;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .image {
+            width: 50%;
+            display: flex;
+            position: absolute;
+            height: fit-content;
+
+        }
+
+        .detail {
+            height: fit-content;
+            width: fit-content;
+            margin-left: 650px;
+            background-color: rgba(255, 255, 255, 0.8);
+            justify-content: stretch;
+        }
+
+        .detail h1,
+        .detail p {
+            margin: 90px;
+            text-align: center;
+        }
+
+        .btn-services {
+            margin: 12%;
+            margin-left: 40%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgb(8, 71, 71);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        .btn-visitus {
+            height: 78px;
+            width: 100px;
+            color: #fff;
+            background-color: rgb(210, 170, 118);
+            border: none;
+            cursor: pointer;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 10);
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Tailor</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="day1.html">Home</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="service">Service</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="visitus">Visit Us</a></li>
+
+            </ul>
+
+            <button class="btn-visitus" type="button" onclick="window.location.href='about.html'">About Us</button>
+
+
+        </nav>
+    </header>
+    
+    <div class="slogan1">
+            <div class="main-content">
+                <div class="slogan">
+                   
+                        <p class="slogan-text">We make clothes that suit you</p>
+                        <br>
+                        
+                        <p class="slogan-description">Discover where tradition meets contemporary style. Experience the
+                            latest in
+                            South Asian-inspired fashion. Elevate Your style and Unleash Elegance with Premium Clothing
+                            and
+                        </p>
+                        <br>
+                        
+                        <button class="btn-services" type="submit">OUR SERVICES</button>
+                    
+                </div>
+                <div class="img-container">
+                    <img src="fashion.jpg" alt="Fashion Designer">
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+<main style="padding: 0 6%;">
+    <div class="features">
+        <div class="f">
+            <img src="viber_image_2025-02-09_09-16-13.png" alt="">
+            <div class="rex">
+                <div class="number"><span>1</span></div>
+                <h1>Tailor Swelling</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto tenetur sapiente, dolore
+                aperiam
+                delectus.</p>
+        </div>
+        <div class="f">
+            <img src="viber_image_2025-02-09_09-16-14.png" alt="">
+            <div class="rex">
+                <div class="number"><span>2</span></div>
+                <h1>Measurement</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequatur et saepe quibusdam impedit,
+                praesentium vitae?</p>
+        </div>
+        <div class="f">
+            <img src="viber_image_2025-02-09_09-16-15.png" alt="">
+            <div class="rex">
+                <div class="number"><span>3</span></div>
+                <h1>Ready-made</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel dignissimos qui libero reiciendis
+                illum
+                repudiandae magni hic quis sit.</p>
+        </div>
+    </div>
+    <div class="about">
+
+        <div class="image">
+            <img style="margin-top:100px;height: 100%;width: 100%;" src="t1.jpg" alt="Image 1">
+
+            <img style="position: absolute;margin-left: 42%;margin-top: 36.1%;width: 70%;height: auto;" src="t2.jpg"
+                alt="Image 2">
+        </div>
+        <div class="detail">
+            <h1>About Our Tailor House</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum exercitationem quo omnis quasi vero
+                vitae eaque dolore quaerat consequuntur?</p>
+            <button class="btn-services" type="submit">MORE ABOUT US</button>
+        </div>
+    </div>
+
+    </main>
+    
+</body>
+
+</html>

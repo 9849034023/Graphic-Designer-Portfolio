@@ -1,0 +1,162 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 160px 0;
+    height: 10vh;
+}
+.breadcrumb {
+    font-size: 16px;
+    color: white;
+}
+.contact h1{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+    font-weight: bold;
+}
+body {
+    background: linear-gradient(to right,  #6ac6fb, #59C3FF,#1E90FF);
+    padding-top: 80px;
+
+}
+main {
+    font-family: "Heebo", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    margin: 0 5%;
+
+
+}
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 450px;
+    border: 0; 
+    background-color: white;
+    display: block;  
+    margin:  5% 5% 0 5%; 
+    position: relative;
+    top: 50px;
+}
+.maps{
+    width: 100%;
+    background-color: white;
+    height: 550px;
+}
+
+p{
+    color: rgba(87, 84, 84, 0.552);
+}
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border: rgb(184, 184, 184) solid 1px;
+}
+
+.info1{
+    width: 100%;
+    display: flex;
+   gap: 10px;
+    background-color: white;
+    font-family: "Heebo", sans-serif;
+}
+.wild1{
+    margin: 0 5%;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+   font-size: 14px;   
+   width: 18%;
+}
+.container1{
+    width: 37%;
+}
+.information h1,p{
+    margin-bottom: 20px;
+}
+.right-part {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#messageInput {
+    height: 144px;
+    width: 100%; 
+    resize: none;
+    text-align: left;
+    line-height: 1.5;
+    display: block;
+    font-family: "Heebo", sans-serif;
+    border: rgb(184, 184, 184) solid 1px;
+}
+
+.icon i{
+    display: flex;
+    flex-direction: column;
+   font-size: 22px;
+   margin-bottom: 35px;
+   width: 5%;
+}
+.form{
+   border: black solid 1px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.button-btn {
+    display: inline-block;
+    background-image: linear-gradient(to right, #4dabff 0%, #62ddff 48%, #4dabff 100%);
+    background-size: 200% auto;
+    padding: 0px 35px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    cursor: pointer;
+    transition: background-position 0.5s ease-in-out;
+    background-position: left center;
+    border: none;
+}
+
+.button-btn:hover {
+    background-position: right center;
+}
+
+
+
+

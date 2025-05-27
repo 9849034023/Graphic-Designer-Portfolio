@@ -1,0 +1,160 @@
+/* Style for the verification container */
+.verify-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 62vh; /* Center vertically */
+    background: url('background-image.jpg') no-repeat center center/cover; /* Replace with your image */
+}
+
+.verify-code-container h2 {
+    color: #000000; /* White text for better contrast */
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+#verify-code-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    opacity: 90%;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    width: 90%;
+    max-width: 400px; /* Limit the maximum width of the form */
+    height: 230px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#code {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Make input fit inside the box */
+    max-width: 300px; /* Prevent input from exceeding the box */
+    background: rgba(255, 255, 255, 0.8); /* Slightly opaque input background */
+    color: #333;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fdf8f8;
+    background: linear-gradient(135deg, #FFCC00, #FF0066);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5%;
+    
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #FFCC00, #640101);
+}
+
+button[type="button"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fdf8f8;
+    background: linear-gradient(135deg, #FFCC00, #FF0066);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5%;
+    
+}
+
+button[type="button"]:hover {
+    background: linear-gradient(135deg, #FFCC00, #640101);
+}
+
+
+@media screen and (max-width: 768px) {
+    #verify-code-form {
+        width: 95%; /* Adjust form width for smaller screens */
+    }
+
+    #code {
+        max-width: 100%; /* Ensure input doesn't exceed form width */
+    }
+}
+.code-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.code-input {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline:none;
+    transition: border-color 0.3s ease, background-color 0.3s ease
+}
+
+.code-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.25);
+}
+.code-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.code-input.pasted {
+    background-color: #e0f7fa;
+    border-color: #007bff;
+    animation: fadeEffect 0.5s ease-out;
+}
+
+@keyframes fadeEffect {
+    0% {
+        background-color: #007bff;
+    }
+    100% {
+        background-color: #e0f7fa;
+    }
+}
+.form-group {
+    margin-top: 20px;
+}
+
+.verify-code-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.verify-code-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#resend-timer {
+    margin-top: 10px;
+    color: gray;
+    text-align: center;
+}

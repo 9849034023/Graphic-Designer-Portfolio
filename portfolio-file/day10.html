@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <style>
+        body {
+            font-family: a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            background-image: url(doors-1690423.jpg);
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            width: 800px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-panel {
+            background-color: black;
+            color: white;
+            width: 40%;
+            padding: 30px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .left-panel h2 {
+            margin-bottom: 5px;
+            font-size: x-large;
+        }
+
+        .left-panel h4 {
+            margin: 2px ;
+            opacity: 50%;
+            font-style: normal;
+        }
+
+        .left-panel h3 {
+            margin-top: 2px;
+            opacity: 50%;
+            font-style: normal;
+        }
+        .left-panel h5 {
+            opacity: 30%;
+            margin: 2px;
+            font-style: normal;
+        }
+
+        .right-panel {
+            width: 60%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .right-panel h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+  
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            text-align: left;
+            width: 100%;
+        }
+
+        .form-row select, .form-row input {
+            width: 30%;
+            padding: 10px;
+            border: none; 
+            border-bottom: 1px solid #ddd; 
+            border-radius: 0; 
+            box-sizing: border-box;
+        }
+
+        .input-group {
+            display: flex;
+            justify-content: space-between; 
+            margin-bottom: 20px;
+        }
+
+        .input-group input {
+            width: 30%; 
+            padding: 10px;
+            border: none; 
+            border-bottom: 1px solid #ddd; 
+            border-radius: 0; 
+            box-sizing: border-box;
+        }
+
+        button {
+        
+            background-color: black;
+            color: white;
+            padding: 15px ;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Time Open</h2>
+            <h5>MONDAY-FRIDAY</h5>
+            <h4>7 AM to 11 AM (Breakfast)</h4>
+            <h4>12 PM to 11 PM (Lunch/Dinner)</h4>
+            <h5>SATURDAY (CLOSED)</h5>
+            <h5>SUNDAY</h5>
+            <h4>7 AM to 11 AM (Breakfast)</h4>
+            <h4>12 PM to 11 PM (Lunch/Dinner)</h4>
+            <h3 style="color: coral;">+1 398 239 8483</h3>
+            .................................
+        </div>
+        <div class="right-panel">
+            <h2>Reservation Form</h2>
+            <div class="form-row">
+                <select>
+                    <option value="1">1 Person</option>
+                    <option value="2">2 People</option>
+                    <option value="3">3 People</option>
+                </select>
+                <input type="date">
+                <input type="time">
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Name">
+                <input type="tel" placeholder="Phone">
+                <input type="email" placeholder="Email">
+            
+            </div>
+            <button>RESERVE NOW</button>
+        </div>
+    </div>
+</body>
+</html>

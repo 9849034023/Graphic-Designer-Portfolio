@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - K-ERA</title>
+    <link rel="stylesheet" href="kera.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="K-ERAunisex.css">
+    <style>
+        .arrow-button {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            background: linear-gradient(135deg, #00008B, #8B008B);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .arrow-button:hover {
+            background: linear-gradient(135deg, #00008B, #ADD8E6);
+        }
+
+        .arrow-button i {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="kera">
+            <img src="K-ERA logo.png" alt="Logo">
+            <li id="logo-name">
+                <p>K-ERA</p>
+            </li>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search in K-ERA...">
+                <button type="button" onclick="performSearch()"><i class="ri-search-line"></i>
+                </button>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="kera.html">Home</a>
+                </li>
+                <li>
+                    <a href="K-ERAlogin.html">Log in</a>
+
+                </li>
+                <li>
+                    <a href="K-ERAabout.html">About us</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <button class="arrow-button left-arrow" onclick="location.href='K-ERAWomens.html'"> 
+            <i class="ri-arrow-left-line"></i>
+        </button>
+        <div class="profile-box">
+            <a href="K-ERAprofile.html"><i class="ri-user-line"></i> </a>
+        </div>
+    </nav>
+    <h1>Unisex Wear</h1>
+    <div class="unisexcontent">
+        <li>
+            <a href="">Head Wears</a>
+        </li>
+        <li>
+            <a href="">Body Wears</a>
+        </li>
+        <li>
+            <a href="">Lower Body Wears</a>
+        </li>
+        <li>
+            <a href="">Foot Wears</a>
+        </li>
+        
+    </div>
+  
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h4>Contact Us</h4>
+                <p>Phone: +977-9849034023</p>
+                <p>Address: Basundhara, Kathmandu, Nepal</p>
+                <p>Email: info@K-ERA.com</p>
+                <h5>Follow us on:</h5>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61570252716157" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.whatsapp.com/" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="ri-youtube-fill"></i></a>
+                </div>
+                <p id="brand"> K-ERA </p>
+                <div id="K-ERA">K-ERA™ - All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

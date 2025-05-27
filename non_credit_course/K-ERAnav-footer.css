@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url(pexels-maumascaro-376533.jpg);
+    background-size: cover;
+}
+
+nav {
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #ADD8E6, #00008B);
+    align-items: center;
+    height: 80px;
+    font-size: large;
+    font-weight: lighter;
+    font-style: normal;
+    padding: 0 20px;
+    position: fixed;
+    color: #ece5e3;
+    z-index: 1000;
+}
+
+nav .kera img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.profile-box {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.profile-box a {
+    color: rgba(0, 0, 0, 0.925);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.profile-box i {
+
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #fcfbfb;
+    border-radius: 80%;
+}
+
+
+.kera {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.kera p {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+    user-select: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+   
+}
+
+nav ul li {
+    padding: 5px 20px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #1e65a3;
+    border-radius: 5px;
+
+}
+
+.menu {
+    margin-left: 55%;
+    position: absolute;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 200px;
+    position: fixed;
+}
+
+#search-bar {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ece5e3;
+    border-radius: 20px;
+    background-color: #ede3e3;
+    width: 500px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    position: fixed;
+}
+
+.search-container button {
+    padding: 10px 10px;
+    margin-left: 5px;
+    background-color: #ece5e3;
+    border: 1px solid #ece5e3;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.search-container button:hover {
+    background-color: #c3b5b5;
+}
+
+.search-container button i {
+    color: #b5aeae;
+    font-size: 16px;
+}
+
+.footer-container {
+    background-color: #000000;
+    color: rgb(248, 248, 248);
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.footer-content {
+    margin: auto;
+}
+
+.footer-content h3 {
+    margin-top: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+#brand {
+    font-size: 300px;
+    background-color: #000000;
+    user-select: none;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+#slogon {
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 50px;
+    user-select: none;
+}
+
+#K-ERA {
+    color: azure;
+    text-align: left;
+    font-size: x-small;
+    font-style: normal;
+
+
+}
+
+.item a {
+    text-decoration: underline solid rgb(20, 1, 1);
+}
+
+.footer-container h4,
+h5 {
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 300;
+    user-select: none;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons .ri-facebook-circle-fill {
+    color: #1877f2;
+}
+
+.social-icons .ri-instagram-line {
+    background: linear-gradient(135deg, #fd5949, #d6249f, #285aeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icons .ri-whatsapp-fill {
+    color: #25d366;
+}
+
+.social-icons .ri-youtube-fill {
+    color: #ff0000;
+}
